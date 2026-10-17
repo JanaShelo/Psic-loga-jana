@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi proyecto de vida | Futura psicóloga en Bogotá</title>
+  <style>
+    :root{
+      --principal:#7b5ea7;
+      --claro:#f5effa;
+      --suave:#fffafc;
+      --texto:#333;
+      --blanco:#fff;
+      --acento:#d9b8e8;
+    }
+    *{box-sizing:border-box;scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--texto);
+      background:var(--suave);
+      line-height:1.6;
+    }
+    header{
+      background:linear-gradient(135deg,#7b5ea7,#a982bd);
+      color:white;
+      text-align:center;
+      padding:70px 20px;
+    }
+    header h1{font-size:42px;margin:0 0 10px}
+    header p{font-size:19px;margin:0}
+    nav{
+      background:#fff;
+      padding:15px;
+      text-align:center;
+      position:sticky;
+      top:0;
+      z-index:10;
+      box-shadow:0 2px 8px #0001;
+    }
+    nav a{
+      color:var(--principal);
+      text-decoration:none;
+      margin:0 12px;
+      font-weight:bold;
+    }
+    section{
+      max-width:1000px;
+      margin:auto;
+      padding:55px 20px;
+    }
+    h2{
+      color:var(--principal);
+      text-align:center;
+      font-size:30px;
+      margin-bottom:25px;
+    }
+    .intro{
+      text-align:center;
+      max-width:760px;
+      margin:auto;
+      font-size:18px;
+    }
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+      gap:20px;
+      margin-top:30px;
+    }
+    .card{
+      background:white;
+      padding:25px;
+      border-radius:18px;
+      box-shadow:0 5px 18px #00000012;
+      border-top:5px solid var(--acento);
+    }
+    .card h3{color:var(--principal)}
+    .timeline{
+      border-left:4px solid var(--principal);
+      padding-left:25px;
+      max-width:760px;
+      margin:30px auto;
+    }
+    .timeline div{
+      background:white;
+      margin:20px 0;
+      padding:18px 22px;
+      border-radius:12px;
+      box-shadow:0 3px 12px #00000010;
+    }
+    .quote{
+      background:var(--claro);
+      border-radius:20px;
+      padding:30px;
+      text-align:center;
+      font-size:21px;
+      font-style:italic;
+      color:#59426f;
+    }
+    .contacto{
+      background:var(--claro);
+      border-radius:22px;
+      text-align:center;
+      padding:35px 20px;
+    }
+    footer{
+      background:#33263f;
+      color:white;
+      text-align:center;
+      padding:25px;
+    }
+    .boton{
+      display:inline-block;
+      margin-top:20px;
+      background:white;
+      color:var(--principal);
+      padding:12px 22px;
+      border-radius:25px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+    @media(max-width:600px){
+      header h1{font-size:32px}
+      nav a{display:inline-block;margin:5px 7px;font-size:14px}
+    }
+  </style>
+</head>
+
+<body>
+
+<header id="inicio">
+  <h1>Mi proyecto de vida</h1>
+  <p>Mi meta: ser psicóloga y aportar al bienestar emocional en Bogotá</p>
+  <a class="boton" href="#proyecto">Conocer mi proyecto</a>
+</header>
+
+<nav>
+  <a href="#proyecto">Proyecto</a>
+  <a href="#perfil">Mi perfil</a>
+  <a href="#metas">Metas</a>
+  <a href="#emprendimiento">Emprendimiento</a>
+  <a href="#etica">Ética</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="proyecto">
+  <h2>Mi propuesta individual</h2>
+  <p class="intro">
+    Mi proyecto de vida consiste en prepararme académica y personalmente para
+    convertirme en psicóloga. Quiero estudiar Psicología, fortalecer mis
+    habilidades de comunicación y aprender a comprender las emociones y
+    comportamientos de las personas para contribuir a su bienestar.
+  </p>
+  <p class="intro">
+    Mi proyecto estará orientado principalmente a Bogotá, una ciudad en la que
+    me gustaría desarrollar mi futuro profesional y aportar a mi comunidad
+    mediante espacios de orientación, prevención y promoción de la salud mental.
+  </p>
+</section>
+
+<section id="perfil">
+  <h2>¿Quién quiero llegar a ser?</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Vocación</h3>
+      <p>Me interesa escuchar, comprender y acompañar a las personas con respeto,
+      empatía y responsabilidad.</p>
+    </div>
+    <div class="card">
+      <h3>Formación</h3>
+      <p>Mi objetivo es terminar mis estudios escolares, ingresar a la universidad
+      y formarme profesionalmente en Psicología.</p>
+    </div>
+    <div class="card">
+      <h3>Valores</h3>
+      <p>Quiero construir mi proyecto sobre la empatía, el respeto, la honestidad,
+      la responsabilidad y la confidencialidad.</p>
+    </div>
+  </div>
+</section>
+
+<section id="metas">
+  <h2>Mis metas</h2>
+  <div class="timeline">
+    <div>
+      <h3>Corto plazo</h3>
+      <p>Mejorar mi rendimiento académico, fortalecer mis habilidades de comunicación,
+      investigar sobre Psicología y prepararme para ingresar a la educación superior.</p>
+    </div>
+    <div>
+      <h3>Mediano plazo</h3>
+      <p>Ingresar a una carrera de Psicología, adquirir experiencia académica,
+      participar en proyectos y conocer diferentes áreas de la profesión.</p>
+    </div>
+    <div>
+      <h3>Largo plazo</h3>
+      <p>Graduarme como psicóloga, continuar capacitándome y construir una trayectoria
+      profesional en Bogotá que me permita contribuir al bienestar de otras personas.</p>
+    </div>
+  </div>
+</section>
+
+<section id="emprendimiento">
+  <h2>Mi idea de emprendimiento</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Nombre de la propuesta</h3>
+      <p><strong>“Mente en Equilibrio”</strong></p>
+      <p>Una futura propuesta de orientación y promoción del bienestar emocional,
+      desarrollada cuando cuente con la formación y las condiciones profesionales necesarias.</p>
+    </div>
+    <div class="card">
+      <h3>¿Qué ofrecería?</h3>
+      <p>En el futuro podría incluir contenidos educativos sobre emociones,
+      autoestima, manejo del estrés, hábitos saludables y orientación psicológica
+      dentro del marco de las competencias profesionales.</p>
+    </div>
+    <div class="card">
+      <h3>¿A quién estaría dirigida?</h3>
+      <p>Principalmente a jóvenes y familias de Bogotá que busquen información
+      y herramientas de educación y promoción del bienestar emocional.</p>
+    </div>
+  </div>
+</section>
+
+<section id="etica">
+  <h2>Ética y responsabilidad digital</h2>
+  <div class="quote">
+    “Ayudar a una persona también significa respetar su historia, sus decisiones,
+    su privacidad y sus derechos.”
+  </div>
+  <p class="intro" style="margin-top:25px">
+    Como futura profesional, considero fundamental respetar la privacidad,
+    utilizar información confiable, reconocer los derechos de autor y evitar
+    presentar como asesoría profesional aquello para lo que todavía no tengo
+    las competencias o la autorización correspondiente.
+  </p>
+</section>
+
+<section id="contacto">
+  <div class="contacto">
+    <h2>Mi compromiso</h2>
+    <p>
+      Quiero trabajar constantemente para alcanzar mi meta de ser psicóloga.
+      Sé que este camino requiere estudio, disciplina, responsabilidad y
+      preparación continua.
+    </p>
+    <p><strong>Ubicación proyectada:</strong> Bogotá, Colombia</p>
+    <p><strong>Área de interés:</strong> Psicología y bienestar emocional</p>
+  </div>
+</section>
+
+<footer>
+  <p>Proyecto académico de emprendimiento y proyecto de vida</p>
+  <p>© 2026 | Mi proyecto hacia la Psicología</p>
+</footer>
+
+</body>
+</html>
